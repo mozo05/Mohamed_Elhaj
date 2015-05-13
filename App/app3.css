@@ -1,0 +1,66 @@
+#wrapper {
+	width:100%;
+	min-width: 548px;
+	background-color:rgba(255,255,255,0.8);
+}
+
+#left_pane{
+ position:relative;
+ top:0;
+ left:0;
+ width:100%;
+ display: inline;
+
+}
+
+
+#right_pane{
+	width:100%;	
+	position: absolute;
+	display: block;
+	float: left;
+
+
+}
+
+#image1{
+	width: 24%;
+	height:24%;
+	display: inline;
+
+}
+
+.img2{
+
+
+	display: inline;
+	width: 24%;
+	height:24%;
+
+
+}
+
+
+
+/*body{
+  background-color: #black;
+}
+
+
+.todo-link{
+  font-family: 'Helvetica Neue', sans-serif;
+  text-decoration: none;
+  color: #999;
+  font-size: 3rem;
+  font-weight: 200;
+
+  
+  margin-top: 100px;
+  text-align: center;
+  
+  display: block;
+
+
+}
+
+*/

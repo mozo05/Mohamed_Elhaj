@@ -1,0 +1,38 @@
+<html>
+<body>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script>
+$(function(){
+$( "#btnHide" ).on("click",function() {
+  $( "#hideList" ).toggle(2000, function(){
+
+  });
+});
+});
+</script>
+<div id="wrapper">
+<span>
+<div class = "book_title" > Lorem ipsum dolor sit amet </div>
+<div>
+<P  color : "Green" margin = "10px,10px,10px,10px"> <img class="cat" src="http://lorempixel.com/400/200/cats/" align="right">Nam venenatis massa vitae sem dictum varius. Vestibulum
+ornare urna sed lorem imperdiet, sit amet blandit purus pharetra. Maecenas nibh leo,
+commodo a posuere lacinia, scelerisque vel risus. <a href = "#"
+onclick = " javascript : alert ( 'Hello world!) "> Sed eget magna viverra </a> , tristique mi
+ut, convallis sapien. Donec at nunc felis. Ut lacus ipsum, eleifend ac lacinia
+ultricies, vulputate non dolor.</p>
+<input type="button" id="btnHide" value="Hide" >
+<ol id="hideList" style = " margin : 2em 10px 10px ">
+<li> Duis sit amet lorem id mi interdum sagittis sed quis odio. </li>
+<li> In fringilla odio ut tristique lobortis. </li>
+<li> Morbi lacinia <a href = "#" > felis </a> ac eleifend vestibulum. </li>
+<li> Vivamus a tortor aliquet ante mollis adipiscing. </li>
+<li> Phasellus vulputate felis in est ornare, ut <a>href = "#top" > scelerisque </a> urnatincidunt .</li>
+</ol>
+<button id="add_li">Add List</button>
+<button id="remove_li">Remove List</button>
+</div>
+</div>
+<script type="text/javascript" src="add.js"></script>
+</body>
+</html>

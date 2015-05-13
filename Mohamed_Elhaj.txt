@@ -1,0 +1,38 @@
+Mohamed Elhaj - 13/05/2015 
+
+
+1.1) "HTML5 is a core technology markup language of the Internet used for structuring and presenting content for the World Wide Web" 
+
+1.2) Fixed layouts have a wrapper with a fixed width, they will maintain the same layout regardless of the screens resolution. In fluid layouts there is no wrapper with a fixed width and the majority of the components have percentage widths, this means that the layout of the page will change depending on the screens resolution.    
+
+
+1.3)--See code 
+1.4)--See code 
+2.1)--See code 
+2.2)--See code 
+2.3)--See code 
+
+2.4) When you write "element1>element2" it means that element2 is a direct child of element1
+
+3.1)By using an alert method. 
+3.2)--See code
+3.3)--See code
+
+3.4) <button onclick="addName()">Add Name</button>
+
+<p id="list"></p>
+
+<script>
+var itemList = ["item 1", "item 2", "item 3", "item 4"];
+document.getElementById("list").innerHTML = itemList;
+
+function addName() {
+    itemList.push("Mohamed Elhaj");
+    document.getElementById("list").innerHTML = itemList;
+}
+</script>
+
+4.1)--See code	 
+4.2)--See code
+4.3)--See code
+

@@ -1,0 +1,76 @@
+#wrapper {
+	width:100%;
+	min-width: 768px;
+	background-color:rgba(255,255,255,0.8);
+}
+
+#left_pane{
+ position:relative;
+ top:0;
+ left:0;
+ width:100%;
+}
+
+
+#right_pane{
+	width:100%;	
+	position: absolute;
+
+
+}
+
+#right_left{
+	width:100%;
+	float:left;
+	position: relative;
+}
+
+
+#right_right{
+	width:50%;
+	float:right;
+	position: relative;
+
+
+}
+
+#image1{
+
+	min-width: 512px;
+	height:auto;
+
+}
+
+.img2{
+
+
+	display: inline;
+	width: 24%;
+
+
+}
+
+
+
+/*body{
+  background-color: #black;
+}
+
+
+.todo-link{
+  font-family: 'Helvetica Neue', sans-serif;
+  text-decoration: none;
+  color: #999;
+  font-size: 3rem;
+  font-weight: 200;
+
+  
+  margin-top: 100px;
+  text-align: center;
+  
+  display: block;
+
+
+}
+
+*/
